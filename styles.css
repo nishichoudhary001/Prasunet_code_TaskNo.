@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1rem 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem ;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+nav ul select{
+    border-radius: 5%;
+    color: red;
+    margin-left: 3rem;
+    font-size: 1rem;
+}
+section {
+    padding: 100px 20px;
+    height: 100vh;
+   
+}
+
+#home {
+    background-color: #f4f4f4;
+    background-image: url(https://t3.ftcdn.net/jpg/02/52/38/80/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+#about h1{
+   flex: 1;
+   padding-right: 20px;
+   font-size: 2.5rem;
+
+}
+#class p{
+    flex: 1;
+    padding-right: 20px;
+}
+#image img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#contact {
+    background-color: #c4c4c4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+#contact h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input,
+#contact  textarea {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contact button {
+    width: 20;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
